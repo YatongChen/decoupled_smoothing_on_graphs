@@ -14,13 +14,13 @@ We provide links to the datasets (Facebook100) in the data sub-folder.
 
 This repository set-up assumes that the FB100 (raw `.mat` files) have been acquired and are saved the data folder. Follow these steps:
 1. The Facebook100 (FB100) dataset is publicly available from the Internet Archive at https://archive.org/details/oxford-2005-facebook-matrix and other public repositories. Download the datasets.
-2. Save raw datasets in placeholder folder data. They should be in the following form: i.e. `Amherst41.mat`.
+2. Save raw datasets in placeholder folder data. They should be in the following form: `Amherst41.mat`.
 
 Go to the code folder, and run code which is briefly described below:
-   * soft_smoothing/ - includes notebooks for code related to simulations for the soft smoothing part (Section 6.1, Figure 2).
-   * decouple_smoothing(compared with other methods)/ - includes all relevant code that compare decoupled smoothing with the other methods - including one hop majority vote, hard smoothing (ZGL) and two hop majority vote (Section 6.2, Figure 3)
-   * hard_smoothing_regularization/ - includes all relevant code that related to iterative hard smoothing and regularization (Section 6.3.1, Figure 4)
-   * decoupled_smoothing_regularization/ - includes all relevant code that related to iterative decoupled smoothing and regularization (Section 6.3.2, Figure 5)
+   * /soft_smoothing - includes notebooks for code related to simulations for the soft smoothing part (Section 6.1, Figure 2).
+   * /decouple_smoothing(compared with other methods) - includes all relevant code that compare decoupled smoothing with the other methods - including one hop majority vote, hard smoothing (ZGL) and two hop majority vote (Section 6.2, Figure 3)
+   * /hard_smoothing_regularization - includes all relevant code that related to iterative hard smoothing and regularization (Section 6.3.1, Figure 4)
+   * /decoupled_smoothing_regularization - includes all relevant code that related to iterative decoupled smoothing and regularization (Section 6.3.2, Figure 5)
    * functions/ - all helper functions that are required by the main codes.
 
 All random number generators used in the analysis have been seeded deterministically to produce persistent cross-validation folds and thereby consistent results when re-running the analysis. The code for generating random graphs (sampled from the overdispersed stochastic block model) is not deterministically seeded. 
