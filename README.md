@@ -1,5 +1,8 @@
-# decoupled_smoothing_on_graph
 ## Replication code: "Decoupled smoothings on graphs"
+
+This code and data repository accompanies the paper:
+
+* Decoupled smoothing on graphs (2019) - [Alex Chin](https://ajchin.github.io/), [Yatong Chen](), [Kristen M. Altenburger](http://kaltenburger.github.io/), [Johan Ugander](https://web.stanford.edu/~jugander/).
 
 For questions, please email Yatong at yatong@stanford.edu.
 
