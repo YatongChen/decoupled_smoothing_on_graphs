@@ -1,7 +1,6 @@
 # soft smoothng method: 
-# with input w to be the 
+# with input w to be the weight
 def ZGL_softing_new_new(w, adj_matrix_tmp,gender_dict, attribute, percent_initially_unlabelled, num_iter, cv_setup):
-    #cwd = os.getcwd()
     exec(open("create_graph.py").read())
     #exec(open("/Users/yatong_chen/Google Drive/research/DSG_empirical/code/functions/create_graph.py").read())
     (graph, gender_y)  = create_graph(adj_matrix_tmp,gender_dict,'gender',0,None,'yes')
