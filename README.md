@@ -6,16 +6,17 @@ This code and data repository accompanies the paper:
 
 ### Documentation
 
-This repository contains all the correponding code to replicate the figures in "Decoupled smoothing on graphs". We provide links to the datasets (Facebook100) in the data sub-folder.
+This repository contains all the correponding code to replicate the figures in "Decoupled smoothing on graphs". 
+We provide links to the datasets (Facebook100) in the data sub-folder.
 
 
-### Directions
+### Reproducing results and figures
 
 This repository set-up assumes that the FB100 (raw `.mat` files) have been acquired and are saved the data folder. Here are the directions:
+1. The Facebook100 (FB100) dataset is publicly available from the Internet Archive at https://archive.org/details/oxford-2005-facebook-matrix and other public repositories.
+2. Save raw dataset in placeholder folder data. The data should be in the following form: i.e. `Amherst41.mat`.
 
-1. Save raw files in data. The data should be in the following form: i.e. `Amherst41.mat`.
-
-2. Run code which is briefly described below:
+Run code which is briefly described below:
    * soft_smoothing/ - includes notebooks for code related to simulations for the soft smoothing part (Section 6.1, Figure 2).
    * decouple_smoothing(compared with other methods)/ - includes all relevant code that compare decoupled smoothing with the other methods (Section 6.2, Figure 3)
    * hard_smoothing_regularization/ - includes all relevant code that related to iterative hard smoothing and regularization (Section 6.3.1, Figure 4)
