@@ -21,7 +21,7 @@ This repository set-up assumes that the FB100 (raw .mat files) have been acquire
    * decoupled_smoothing_regularization/ - includes all relevant code that related to iterative decoupled smoothing and regularization (Figure 5)
    * functions/ - all helper functions that are required by the main codes.
 
-All random number generators used in the analysis have been seeded deterministically to produce persistent cross-validation folds and thereby consistent results when re-running the analysis. The code for generating random graphs (sampled from the overdispersed stochastic block model) is not deterministically seeded. All code was written and tested for Python 3.6 with versions for the following main Python libraries:  networkx (2.2), numpy (1.15.4), sklearn (0.20.1), matplotlib(3.0.2), scipy(1.1.0). The code has know incompatibilities with Python 2.x and with networkx 1.x.
+All random number generators used in the analysis have been seeded deterministically to produce persistent cross-validation folds and thereby consistent results when re-running the analysis. The code for generating random graphs (sampled from the overdispersed stochastic block model) is not deterministically seeded. All code was written and tested for Python 3.6 with versions for the following main Python libraries:  `networkx` (2.2), `numpy` (1.15.4), `sklearn` (0.20.1), `matplotlib`(3.0.2), `scipy`(1.1.0). The code has know incompatibilities with Python 2.x and with networkx 1.x.
 
 ### Authors
 * Yatong Chen, yatong@stanford.edu
