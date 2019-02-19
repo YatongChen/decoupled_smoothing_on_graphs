@@ -1,6 +1,7 @@
 # decoupled_smoothing_on_graph
 ## Replication code: "Decoupled smoothings on graphs"
 
+For questions, please email Yatong at yatong@stanford.edu.
 
 ### Documentation
 
