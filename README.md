@@ -2,7 +2,7 @@
 
 This code and data repository accompanies the paper:
 
-* [Decoupled smoothing on graphs]() (2019) - [Alex Chin](https://ajchin.github.io/), [Yatong Chen](https://github.com/YatongChen/), [Kristen M. Altenburger](http://kaltenburger.github.io/), [Johan Ugander](https://web.stanford.edu/~jugander/).
+* [Decoupled smoothing on graphs]() (WWW 2019) - [Alex Chin](https://ajchin.github.io/), [Yatong Chen](https://github.com/YatongChen/), [Kristen M. Altenburger](http://kaltenburger.github.io/), [Johan Ugander](https://web.stanford.edu/~jugander/).
 
 ### Documentation
 
@@ -21,7 +21,7 @@ Go to the code folder, and run code which is briefly described below:
    * /decouple_smoothing(compared with other methods) - includes all relevant code that compare decoupled smoothing with the other methods - including one hop majority vote, hard smoothing (ZGL) and two hop majority vote (Section 6.2, Figure 3)
    * /hard_smoothing_regularization - includes all relevant code that related to iterative hard smoothing and regularization (Section 6.3.1, Figure 4)
    * /decoupled_smoothing_regularization - includes all relevant code that related to iterative decoupled smoothing and regularization (Section 6.3.2, Figure 5)
-   * functions/ - all helper functions that are required by the main codes.
+   * functions/ - all helper functions that are required by the main code.
 
 All random number generators used in the analysis have been seeded deterministically to produce persistent cross-validation folds and thereby consistent results when re-running the analysis. The code for generating random graphs (sampled from the overdispersed stochastic block model) is not deterministically seeded. 
 
