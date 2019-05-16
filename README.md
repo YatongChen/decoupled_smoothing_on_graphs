@@ -2,7 +2,7 @@
 
 This code and data repository accompanies the paper:
 
-* [Decoupled smoothing on graphs]() (WWW 2019) - [Alex Chin](https://ajchin.github.io/), [Yatong Chen](https://github.com/YatongChen/), [Kristen M. Altenburger](http://kaltenburger.github.io/), [Johan Ugander](https://web.stanford.edu/~jugander/).
+* [Decoupled smoothing on graphs](https://dl.acm.org/citation.cfm?doid=3308558.3313748) (WWW 2019) - [Alex Chin](https://ajchin.github.io/), [Yatong Chen](https://github.com/YatongChen/), [Kristen M. Altenburger](http://kaltenburger.github.io/), [Johan Ugander](https://web.stanford.edu/~jugander/).
 
 ### Documentation
 
